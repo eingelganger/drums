@@ -4,7 +4,7 @@ for(var i=0;i<len; i++)
    
     var buttonInnerHTML= this.innerHTML;
     makeSound(buttonInnerHTML);
-    buttonAnimation(buttonInnerHTML)
+    buttonAnimation(buttonInnerHTML);
 
 });
 }
