@@ -33,7 +33,7 @@ function makeSound(key)
             tom3.play();
           }
           else{
-         var tom3= new Audio('sounds/moan2ftw.mp3');
+         var tom3= new Audio('sounds/tom-3.mp3');
             tom3.play();
         }
             break;
