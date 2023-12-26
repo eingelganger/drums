@@ -26,16 +26,16 @@ function makeSound(key)
             tom2.play();
             break;
         case 's':
-          // j++;
-          // if(j%5==0)
-          // {
-          //   var tom3= new Audio('sounds/moan2ftw.mp3');
-          //   tom3.play();
-          // }
-          // else{
+          j++;
+          if(j%5==0)
+          {
+            var tom3= new Audio('sounds/moan2ftw.mp3');
+            tom3.play();
+          }
+          else{
          var tom3= new Audio('sounds/tom-3.mp3');
             tom3.play();
-        // }
+        }
             break;
         case 'd':
           var tom4= new Audio('sounds/Hi-Hat.mp3');
